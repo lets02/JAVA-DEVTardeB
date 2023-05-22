@@ -57,7 +57,7 @@ public class AtividadeFormativa {
     public void atividade2() {
         Random rd = new Random();
         int cont = 1;
-        int valorSorteado = rd.nextInt(10);
+        int valorSorteado = rd.nextInt(1000);
         boolean tenteNovamente = true;
         while (tenteNovamente) {
             System.out.println("Digite um Nº");
@@ -79,7 +79,7 @@ public class AtividadeFormativa {
     public void atividade3() {
         int vetor[] = new int [rd.nextInt(900)+100];
         int cont=0;
-        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
         for(int i = 0; i < vetor.length; i++){
 
         }
