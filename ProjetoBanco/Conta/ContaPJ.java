@@ -1,14 +1,17 @@
 package ProjetoBanco.Conta;
 
 public class ContaPJ extends Conta {
-    //atributos
+    //Atributos
     String nCnpj;
-    //métodos
-    //get and set
+    //metodos
+    //Contrutor default(vazio)
+
     public String getnCnpj() {
         return nCnpj;
     }
+
     public void setnCnpj(String nCnpj) {
         this.nCnpj = nCnpj;
     }
+    
 }
