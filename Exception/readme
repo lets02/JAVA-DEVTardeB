@@ -1,0 +1,13 @@
+alem do try catch, podemos usar o finally ( try- catch-finally)
+o finally nao é obrigatorio mas e muito bom usa-lo. 
+
+explicação
+
+o finally usamos para comunicação, como assim?   
+qunado criamos um banco de dados, ele não fica copnectado a todo momomento com o nosso programa, por finalidade
+de memoria ( nao acumula memoria no seu pc) e pela finalidade de segurança
+ele conecta com o banco de dados, pega um arquivo e fecha comunicação novamente.
+
+throw 
+vou usar para criar um erro, por exemplo
+se a senha estiver muitpo facil ele vai gerar um erro forçando o usuario a criar uma senha mais forte 
