@@ -27,6 +27,7 @@ public class CalculadoraConversor extends JFrame {
 
         // Botão de conversão
         JButton converterButton = new JButton("Converter");
+        converterButton.setBackground(Color.green);
         converterButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
